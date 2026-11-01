@@ -1,0 +1,10 @@
+:root { --verde: #1f5f4a; --verde-oscuro: #143f31; --crema: #faf6ee; --dorado: #c9a227; }
+body { background: var(--crema); }
+.bg-libreria { background: var(--verde-oscuro); }
+.hero { background: linear-gradient(135deg, var(--verde) 0%, var(--verde-oscuro) 100%); }
+.btn-libreria { background: var(--verde); color: #fff; border: 0; }
+.btn-libreria:hover { background: var(--verde-oscuro); color: #fff; }
+.nav-link.active { color: var(--dorado) !important; font-weight: 600; }
+.card { border: 0; box-shadow: 0 2px 10px rgba(0,0,0,.07); }
+.table thead { background: var(--verde); color: #fff; }
+footer { border-top: 1px solid #e4dcc9; }
